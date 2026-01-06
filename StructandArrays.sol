@@ -19,10 +19,12 @@ contract Struct {
        age:10,
        name:"ali" 
     });
-
+    // mapping 
+    mapping(string => uint256) public findHeight;
     // array of struct
     Person[] public listOfStruct;
     function addToList(uint256 _height,string memory _nameOfmother) public {
         listOfStruct.push(Person(_height,_nameOfmother));
+        findHeight[_nameOfmother] = _height;
     }
 }

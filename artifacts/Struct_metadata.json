@@ -44,6 +44,25 @@
 			{
 				"inputs": [
 					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "findHeight",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
@@ -94,11 +113,11 @@
 	},
 	"sources": {
 		"StructandArrays.sol": {
-			"keccak256": "0x1a24f532e2328c1bed1950dba7eb0ad4c72acc2a95739096edd35a4ac023e401",
+			"keccak256": "0x2815b8aef3160bbea723659cd015140498ff2d5e60d78b8bcb834644e5237e9c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2bf40a129238d772236a81c90af8b99a7574cfe705e36f686ad8dbae856f0a68",
-				"dweb:/ipfs/QmVPtLd9ws6Ab8NNeNcxt1XraxWEm4XuRpFh3Sv4SbfKGW"
+				"bzz-raw://1a717a10eab51cc732d4a9a7db2547be61a6175837e98792c9c796e97f819890",
+				"dweb:/ipfs/QmPRiFEfjPJFBuJfMJtSwBMyX4MaJAEt7rJv52s6kDDery"
 			]
 		}
 	},
